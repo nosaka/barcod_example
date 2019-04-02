@@ -1,16 +1,18 @@
+# Android Studio
+.idea/*
+!.idea/codeStyles
+.navigation/
+captures/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+*.ipr
+*.iws
 
-/build
-/captures
-.externalNativeBuild
+# Gradle
+.gradle/
+build/
+proguard/
+*/build/
+local.properties
 
 # macOS
 .DS_Store
